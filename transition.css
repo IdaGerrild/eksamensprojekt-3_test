@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+div{
+width: 100px;
+height: 100px;
+background-color: #4D35D2;
+
+transition-property: width;
+transition-duration: 2s;
+transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+div:hover{
+    width: 300px;
+}
